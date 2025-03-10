@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sendDatafrom_form1toform2",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sendDataBackfromform2toform1UsingDelegate", "sendDataBackfromform2toform1UsingDelegate\sendDataBackfromform2toform1UsingDelegate.csproj", "{3CC89F9F-89DF-4312-9921-5B1054E25B82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "UserControls\UserControls.csproj", "{55B4D43E-C15F-4696-B5B1-A5CCDC67F256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3CC89F9F-89DF-4312-9921-5B1054E25B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC89F9F-89DF-4312-9921-5B1054E25B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC89F9F-89DF-4312-9921-5B1054E25B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B4D43E-C15F-4696-B5B1-A5CCDC67F256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B4D43E-C15F-4696-B5B1-A5CCDC67F256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B4D43E-C15F-4696-B5B1-A5CCDC67F256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B4D43E-C15F-4696-B5B1-A5CCDC67F256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
