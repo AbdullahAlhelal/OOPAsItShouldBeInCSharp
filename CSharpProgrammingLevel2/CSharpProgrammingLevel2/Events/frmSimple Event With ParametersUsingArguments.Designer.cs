@@ -1,6 +1,6 @@
 ﻿namespace Events
 {
-    partial class Form1
+    partial class frmSimple_Event_With_ParametersUsingArguments
     {
         /// <summary>
         /// Required designer variable.
@@ -33,20 +33,19 @@
             // 
             // ctrlPersonInfo1
             // 
-            this.ctrlPersonInfo1.Location = new System.Drawing.Point(49, 28);
+            this.ctrlPersonInfo1.Location = new System.Drawing.Point(287, 74);
             this.ctrlPersonInfo1.Name = "ctrlPersonInfo1";
             this.ctrlPersonInfo1.Size = new System.Drawing.Size(497, 230);
             this.ctrlPersonInfo1.TabIndex = 0;
-            
             // 
-            // Form1
+            // frmSimple_Event_With_ParametersUsingArguments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ctrlPersonInfo1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmSimple_Event_With_ParametersUsingArguments";
+            this.Text = "frmSimple_Event_With_ParametersUsingArguments";
             this.ResumeLayout(false);
 
         }
@@ -56,4 +55,3 @@
         private ctrlPersonInfo ctrlPersonInfo1;
     }
 }
-

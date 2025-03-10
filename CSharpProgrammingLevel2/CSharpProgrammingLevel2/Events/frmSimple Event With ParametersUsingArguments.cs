@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace Events
 {
-    public partial class Form1 : Form
+    public partial class frmSimple_Event_With_ParametersUsingArguments : Form
     {
-        public Form1()
+        public frmSimple_Event_With_ParametersUsingArguments()
         {
             InitializeComponent();
-        }
 
-        //private void ctrlPersonInfo1_OnPrint(string obj)
-        //{
-        //    MessageBox.Show($"The name is {obj}");
-        //}
+            
+        }
     }
 }

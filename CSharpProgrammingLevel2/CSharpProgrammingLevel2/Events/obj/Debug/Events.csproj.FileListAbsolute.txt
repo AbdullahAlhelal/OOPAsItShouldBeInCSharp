@@ -9,3 +9,4 @@ D:\Trraining c#\CSharpProgrammingLevel2\CSharpProgrammingLevel2\Events\obj\Debug
 D:\Trraining c#\CSharpProgrammingLevel2\CSharpProgrammingLevel2\Events\obj\Debug\Events.exe
 D:\Trraining c#\CSharpProgrammingLevel2\CSharpProgrammingLevel2\Events\obj\Debug\Events.pdb
 D:\Trraining c#\CSharpProgrammingLevel2\CSharpProgrammingLevel2\Events\obj\Debug\Events.Form1.resources
+D:\Trraining c#\CSharpProgrammingLevel2\CSharpProgrammingLevel2\Events\obj\Debug\Events.frmSimple_Event_With_ParametersUsingArguments.resources

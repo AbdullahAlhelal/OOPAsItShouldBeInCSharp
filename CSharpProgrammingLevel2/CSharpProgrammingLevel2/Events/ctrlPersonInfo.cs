@@ -12,16 +12,40 @@ namespace Events
 {
     public partial class ctrlPersonInfo : UserControl
     {
+        // This old code 
+        //public event Action<string> OnPrint;
 
-        public event Action<string> OnPrint;
+        //protected virtual void Printed(string FullName)
+        //{
+        //   Action<string> action = OnPrint;
+        //    if (action != null)
+        //        OnPrint(FullName);
 
-        protected virtual void Printed(string FullName)
+        //}
+
+        public class OnPrintEventArgs : EventArgs
         {
-           Action<string> action = OnPrint;
-            if (action != null)
-                OnPrint(FullName);
-
+            string Firstname{ set; get; }
+            string Secondname{ set; get; }
+            public OnPrintEventArgs(string Firstname, string Secondname)
+            {
+                 this.Firstname = Firstname;
+                 this.Secondname = Secondname;
+            }
         }
+
+        public EventHandler<OnPrintEventArgs> OnPrinted;
+
+        public void OnPrintComplte(string Firstname , string Secondname)
+        {
+            RaisePrintComplte(new OnPrintEventArgs(Firstname, Secondname));
+        }
+
+        public virtual void RaisePrintComplte(OnPrintEventArgs e)
+        {
+            OnPrinted.Invoke(this,e);
+        }
+
         public ctrlPersonInfo()
         {
             InitializeComponent();
@@ -29,8 +53,8 @@ namespace Events
 
         private void button1_Click(object sender , EventArgs e)
         {
-            if ( OnPrint != null )
-                OnPrint(textBox1.Text + textBox2.Text);
+            if ( OnPrinted != null )
+                OnPrintComplte(textBox1.Text , textBox2.Text);
         }
     }
 }
