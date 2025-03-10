@@ -37,7 +37,6 @@
             this.ctrlPersonInfo1.Name = "ctrlPersonInfo1";
             this.ctrlPersonInfo1.Size = new System.Drawing.Size(497, 230);
             this.ctrlPersonInfo1.TabIndex = 0;
-            
             // 
             // Form1
             // 

@@ -34,16 +34,16 @@ namespace Events
             }
         }
 
-        public EventHandler<OnPrintEventArgs> OnPrinted;
+        public EventHandler<OnPrintEventArgs> OnPrintedComplite;
 
         public void OnPrintComplte(string Firstname , string Secondname)
         {
-            RaisePrintComplte(new OnPrintEventArgs(Firstname, Secondname));
+            OnPrintComplte(new OnPrintEventArgs(Firstname, Secondname));
         }
 
-        public virtual void RaisePrintComplte(OnPrintEventArgs e)
+        public virtual void OnPrintComplte(OnPrintEventArgs e)
         {
-            OnPrinted.Invoke(this,e);
+            OnPrintedComplite.Invoke(this,e);
         }
 
         public ctrlPersonInfo()
@@ -53,7 +53,7 @@ namespace Events
 
         private void button1_Click(object sender , EventArgs e)
         {
-            if ( OnPrinted != null )
+            if ( OnPrintedComplite != null )
                 OnPrintComplte(textBox1.Text , textBox2.Text);
         }
     }
