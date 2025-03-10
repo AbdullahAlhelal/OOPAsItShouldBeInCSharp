@@ -17,9 +17,13 @@ namespace UserControls
             InitializeComponent();
         }
 
+        public float Result
+        {
+            get { return (float) (Convert.ToDouble(lblresult.Text)); }
+        }
         private void button1_Click(object sender , EventArgs e)
         {
-            lblresult.Text = Convert.ToString( Convert.ToInt32( textBox1.Text) + Convert.ToInt32(textBox2.Text));
+            lblresult.Text = Convert.ToString(Convert.ToDouble(textBox1.Text) + Convert.ToDouble(textBox2.Text) );
         }
     }
 }

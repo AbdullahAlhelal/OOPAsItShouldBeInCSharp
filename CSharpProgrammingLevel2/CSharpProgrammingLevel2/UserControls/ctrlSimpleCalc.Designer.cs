@@ -83,9 +83,9 @@
             this.lblresult.AutoSize = true;
             this.lblresult.Location = new System.Drawing.Point(307, 141);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(64, 25);
+            this.lblresult.Size = new System.Drawing.Size(23, 25);
             this.lblresult.TabIndex = 5;
-            this.lblresult.Text = "label3";
+            this.lblresult.Text = "0";
             // 
             // ctrlSimpleCalc
             // 
